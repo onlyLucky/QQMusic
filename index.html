@@ -1,0 +1,2144 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="音乐,QQ音乐,在线听歌,音乐下载,音乐播放器,音乐网站,MV,巅峰榜,音乐排行榜,翻译歌曲,热门歌曲,经典老歌,无损音乐,无损曲库">
+    <meta name="description" content="QQ音乐是腾讯公司推出的一款网络音乐服务产品，海量音乐在线试听、新歌热歌在线首发、歌词翻译、手机铃声下载、高品质无损音乐试听、海量无损曲库、正版音乐下载、空间背景音乐设置、MV观看等，是互联网音乐播放和下载的优选。">
+    <title>QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！</title>
+    <link rel="icon" href="./assets/favicon.ico"  type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./css/head.css">
+    <script src="./bin/jquery-3.4.1.js"></script>
+    <script src="./js/head.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+<!--header start-->
+    <header class="header">
+        <div class="header-box">
+            <h1 class="header-title">
+                <a href="javascript:;"><img class="logo-img" src="./assets/img/logo@2x.png" alt="QQ音乐"></a>
+            </h1>
+            <ul class="header-top-nav">
+                <li class="top-nav-item active"><a href="#" class="tnav-link" title="音乐馆">音乐馆</a></li>
+                <li class="top-nav-item"><a href="#" class="tnav-link" title="我的音乐">我的音乐</a></li>
+                <li class="top-nav-item detail-hover"><a href="#" class="tnav-link" title="客户端">客户端</a>
+                    <img src="./assets/img/mark_1.png" alt="" class="top-nav-img">
+                    <div class="nav-item-detail">
+                        <p>
+                            <i class="detail-icon icon-hd"></i>HQ高品质 全员开启
+                        </p>
+                        <p>
+                            <i class="detail-icon icon-du"> </i>独家音效 全面升级
+                        </p>
+                        <p>
+                            <i class="detail-icon icon-cloth"></i>轻盈视觉 动态皮肤
+                        </p>
+                        <a href="javascript:;" class="client-download">下载体验</a>
+                    </div>
+                </li>
+                <li class="top-nav-item"><a href="#" class="tnav-link" title="音乐号">音乐号</a></li>
+                <li class="top-nav-item"><a href="#" class="tnav-link" title="VIP">VIP</a></li>
+            </ul>
+            <ul class="header-sec-nav">
+                <li class="sec-nav-item active"><a href="#" class="nav-link">首页</a></li>
+                <li class="sec-nav-item"><a href="#" class="nav-link">歌手</a></li>
+                <li class="sec-nav-item"><a href="#" class="nav-link">新碟</a></li>
+                <li class="sec-nav-item"><a href="#" class="nav-link">排行榜</a></li>
+                <li class="sec-nav-item"><a href="#" class="nav-link">分类菜单</a></li>
+                <li class="sec-nav-item"><a href="#" class="nav-link">电台</a></li>
+                <li class="sec-nav-item"><a href="#" class="nav-link">MV</a></li>
+                <li class="sec-nav-item"><a href="#" class="nav-link">数字专辑</a></li>
+                <li class="sec-nav-item"><a href="#" class="nav-link">票务</a></li>
+            </ul>
+            <div class="header-search">
+                <div class="search-input ">
+                    <input type="text" placeholder="搜索音乐、MV、歌单、用户">
+                    <button class="search-btn">
+                        <i class="icon-search sprite"></i>
+                    </button>
+                </div>
+                <div class="search-box">
+                    <div class="search-hot">
+                        <dl>
+                            <dt>热门搜索</dt>
+                            <dd>
+                                <a href="#" class="hot-link">
+                                    <span class="hot-num">1</span>
+                                    <span class="hot-name">野狼disco</span>
+                                    <span class="hot-people">101.6w</span>
+                                </a>
+                                <a href="#" class="hot-link">
+                                    <span class="hot-num">2</span>
+                                    <span class="hot-name">那个女孩</span>
+                                    <span class="hot-people">82.2w</span>
+                                </a>
+                                <a href="#" class="hot-link">
+                                    <span class="hot-num">3</span>
+                                    <span class="hot-name">大田后生仔</span>
+                                    <span class="hot-people">66.1w</span>
+                                </a>
+                                <a href="#" class="hot-link">
+                                    <span class="hot-num">4</span>
+                                    <span class="hot-name">许嵩</span>
+                                    <span class="hot-people">65.8w</span>
+                                </a>
+                                <a href="#" class="hot-link">
+                                    <span class="hot-num">5</span>
+                                    <span class="hot-name">遗憾</span>
+                                    <span class="hot-people">43.9w</span>
+                                </a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="search-history">
+                        <dl class="history-list">
+                            <dt class="history-tit">搜索历史
+                                <a href="javascript:;" class="history-clear">
+                                    <i  class="icon-clear sprite"></i>
+                                </a>
+                            </dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="header-opt">
+                <a href="javascript:;" class="h-login">登录</a>
+                <a href="javascript:;" class="green-vip btn-opt">开通绿钻豪华版</a>
+                <a href="javascript:;" class="open-money-page btn-opt">开通付费包</a>
+                <div class="login-mark"></div>
+            </div>
+        </div>
+    </header>
+<!--main content-->
+    <main>
+        <!--song list recommendation start-->
+        <div class="songList">
+            <div class="opt-switch">
+                <div class="switch-item s-left">
+                    <a href="javascript:;" class="switch-btn btn-left">
+                        <i class="icon-arrow icon-left sprite"></i>
+                    </a>
+                </div>
+                <div class="switch-item s-right">
+                    <a href="javascript:;" class="switch-btn btn-right">
+                        <i class="icon-arrow icon-right sprite"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="head-title">
+                    <h2 class="icon-song-list icon-txt"></h2>
+                </div>
+                <div class="song-tab">
+                    <a href="javascript:;" class="tab-item active">为你推荐</a>
+                    <a href="javascript:;" class="tab-item">运动</a>
+                    <a href="javascript:;" class="tab-item">背景音乐</a>
+                    <a href="javascript:;" class="tab-item">网络歌曲</a>
+                    <a href="javascript:;" class="tab-item">官方歌单</a>
+                    <a href="javascript:;" class="tab-item">情歌</a>
+                </div>
+                <div class="playlist">
+                    <ul class="playlist-ul">
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_6.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">虐心网络曲：爱过你，却终究错过</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：2149.5万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_7.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">来自FABTONE的Jazz HipHop</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：3.6万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_8.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">Synthwave · 复古爱好者的音乐</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：2.3万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_9.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">极致舒缓 • 欧美致郁男嗓</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：4.6万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_10.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">蜜瓜味情歌 · 糖度适中</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：7.1万
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_1.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">创作集 | 陈百强创作歌曲赏</a></span>
+                                </h4>
+                                <div class="play-people ">播放量：15.8万</div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_2.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">2019全美音乐奖提名全集</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：8.9万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_3.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">无关风月，都是岁月的拨弦</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：35.2万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_4.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">轻柔耳语 · 消噪の日系女嗓</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：3.9万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_5.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">一首民谣，一个故事</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：6.1万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_6.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">虐心网络曲：爱过你，却终究错过</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：2149.5万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_7.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">来自FABTONE的Jazz HipHop</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：3.6万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_8.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">Synthwave · 复古爱好者的音乐</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：2.3万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_9.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">极致舒缓 • 欧美致郁男嗓</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：4.6万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_10.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">蜜瓜味情歌 · 糖度适中</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：7.1万
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_1.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">创作集 | 陈百强创作歌曲赏</a></span>
+                                </h4>
+                                <div class="play-people ">播放量：15.8万</div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_2.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">2019全美音乐奖提名全集</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：8.9万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_3.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">无关风月，都是岁月的拨弦</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：35.2万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_4.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">轻柔耳语 · 消噪の日系女嗓</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：3.9万
+                                </div>
+                            </div>
+                        </li>
+                        <li class="playlist-item">
+                            <div class="item-box">
+                                <a href="javascript:;" class="link-img">
+                                    <img src="./assets/img/300_5.jfif" alt="" class="playlist-link-img">
+                                    <i class="img-mask"></i>
+                                    <i class="img-btn"></i>
+                                </a>
+                                <h4 class="item-title">
+                                    <span><a href="javascript:;">一首民谣，一个故事</a></span>
+                                </h4>
+                                <div class="play-people">
+                                    播放量：6.1万
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-point">
+                    <a href="javascript:;" class="bottom-point-item active">
+                        <i class="point "></i>
+                    </a>
+                    <a href="javascript:;" class="bottom-point-item">
+                        <i class="point"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+        <!--new songs first-->
+        <div class="newSongs">
+            <div class="section-container">
+                <div class="new-songs-title">
+                    <h2 class="tit-box icon-txt">
+                        <i class="icon-new-songs">新歌首发</i>
+                    </h2>
+                </div>
+                <a href="javascript:;" class="play-all">
+                    <i class="icon-pause sprite"></i>
+                    播放所有
+                </a>
+                <div class="new-songs-tab">
+                    <a href="javascript:;" class="ns-tab-item active">最新</a>
+                    <a href="javascript:;" class="ns-tab-item">内地</a>
+                    <a href="javascript:;" class="ns-tab-item">港台</a>
+                    <a href="javascript:;" class="ns-tab-item">欧美</a>
+                    <a href="javascript:;" class="ns-tab-item">韩国</a>
+                    <a href="javascript:;" class="ns-tab-item">日本</a>
+                </div>
+                <div class="newSongs-roll">
+                    <div class="ns-roll-box">
+                        <ul class="newSongs-list">
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_41.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="你说你担心的是我 ">
+                                                你说你担心的是我
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="都智文">都智文</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:44</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_42.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="如果你要离去">
+                                                如果你要离去
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="斯斯与帆">斯斯与帆</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:13</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_43.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Mad At You">
+                                                Mad At You
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Why Don't We">Why Don't We</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:49</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_44.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Deck The Halls">
+                                                Deck The Halls
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Pentatonix">Pentatonix</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:46</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_45.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Choir ">
+                                                Choir
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Guy Sebastian">Guy Sebastian / Samantha Jade</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:27</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_46.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Faith (feat. Mr. Probz) ">
+                                                Faith (feat. Mr. Probz)
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Galantis">Galantis / Dolly Parton / Mr. Probz</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:06</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_47.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Back To You (feat. Kiiara) ">
+                                                Back To You (feat. Kiiara)
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Ekali ">Ekali / Kiiara</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:53</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_48.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="自己愛性カワイズム(feat. 初音ミク) ">
+                                                自己愛性カワイズム(feat. 初音ミク)
+                                                <span class="ns-title-txt">”白猫计划×初音未来“合作曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="初音ミク (初音未来)">Mitchie M (人间调教) / 初音ミク (初音未来)</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:52</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_49.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="野狼Disco-安全带篇 ">
+                                                野狼Disco-安全带篇
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="宝石Gem">宝石Gem</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">01:25</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="newSongs-list ">
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_11.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="静月思《明月照我心》网剧插曲">
+                                                静月思
+                                                <span class="ns-title-txt">《明月照我心》网剧插曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="叶炫清">叶炫清</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">04:10</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_12.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="如何爱 《我的机器人男友》电视剧主题曲">
+                                                如何爱
+                                                <span class="ns-title-txt">《我的机器人男友》电视剧主题曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="金志文">金志文</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:28</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_13.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="戒 《热血少年》电视剧片尾曲">
+                                                戒
+                                                <span class="ns-title-txt">《热血少年》电视剧片尾曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="摩登兄弟">摩登兄弟</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:18</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_14.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="For you ">
+                                                For you
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="乐华NEXT">乐华NEXT</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:48</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_15.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Orphans">
+                                                Orphans
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Coldplay">Coldplay</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:17</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_16.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="My Blood">
+                                                My Blood
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Westlife">Westlife</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:17</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_17_8.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="不服 ">
+                                                不服
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="汪苏泷 / Justin">汪苏泷 / Justin</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:48</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_17_8.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="纸飞机">
+                                                纸飞机
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="白百何">白百何</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:36</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_19.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="水墨 《水墨人生》网络剧主题曲">
+                                                水墨
+                                                <span class="ns-title-txt">《水墨人生》网络剧主题曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="胡夏">胡夏</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:53</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="newSongs-list">
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_21.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="深夜酒馆">
+                                                深夜酒馆
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="简弘亦">简弘亦</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:21</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_22.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="不夜之城">
+                                                不夜之城
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="双笙">双笙</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:56</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_23.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="那什么">
+                                                那什么
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="永彬Ryan.B / 李晧轩">永彬Ryan.B / 李晧轩</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">04:02</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_24.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="一点点光 “春蕾101行动”公益歌曲">
+                                                一点点光
+                                                <span class="ns-title-txt">“春蕾101行动”公益歌曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="火箭少女101">火箭少女101</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">04:35</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_25_6.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="薄雾">
+                                                薄雾
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="蒋敦豪">蒋敦豪 / 童宇 / 龙向楠 / 刘硕涵 / 彭涵轩 / 苗一凡 / 肖骏 / 周骏 / 尼克 / 安雨 / 吴健 / 克里斯</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">05:35</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_25_6.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="请直走 ">
+                                                请直走
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="罗奕钧">罗奕钧 / 李晋玮 / 蔡辛豪 / 林耿铭 / 胡宇桐</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">04:49</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_27.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Every Hour ">
+                                                Every Hour
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Sunday Service Choir">Sunday Service Choir / Kanye West</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">01:52</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_28.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Rise Up">
+                                                Rise Up
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="TheFatRat">TheFatRat</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:49</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_29.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="All Comes Back To You">
+                                                All Comes Back To You
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="R3HAB">R3HAB</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:40</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="newSongs-list">
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_31.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="The Truth">
+                                                The Truth
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="James Blunt">James Blunt</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:42</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_32.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Dirty (feat. Chris Brown, Feather & Rahky) ">
+                                                Dirty (feat. Chris Brown, Feather & Rahky)
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Tank">Tank / Chris Brown / Feather / Rahky</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:58</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_33.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="I Wanna Rave">
+                                                I Wanna Rave
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Steve Aoki">Steve Aoki / Bassjackers</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:24</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_34_5.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Sorry ">
+                                                Sorry
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="AOA (에이오에이)">AOA (에이오에이)</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:39</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_34_5.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="되돌릴 수 없는 돌아갈 수 없는 돌아갈 곳 없는 ">
+                                                되돌릴 수 없는 돌아갈 수 없는 돌아갈 곳 없는
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="박봄 (朴春)">박봄 (朴春)</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:37</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_36.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="梦回诛仙 《诛仙手游》情怀主题曲">
+                                                梦回诛仙
+                                                <span class="ns-title-txt">《诛仙手游》情怀主题曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="李玉刚">李玉刚</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">04:10</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_37.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="等爱 《海棠经雨胭脂透》电视剧片尾曲">
+                                                等爱
+                                                <span class="ns-title-txt">《海棠经雨胭脂透》电视剧片尾曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="邓伦 / 阿兰">邓伦 / 阿兰</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">04:46</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_38.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="海藏 《四海鲸骑》动画第2季主题曲">
+                                                海藏
+                                                <span class="ns-title-txt">《四海鲸骑》动画第2季主题曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="周深">周深</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">04:56</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_39.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Walk on Water 电影《终结者：黑暗命运》中国区主题曲">
+                                                Walk on Water
+                                                <span class="ns-title-txt">电影《终结者：黑暗命运》中国区主题曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="G.E.M. 邓紫棋">G.E.M. 邓紫棋</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:31</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="newSongs-list">
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_41.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="你说你担心的是我 ">
+                                                你说你担心的是我
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="都智文">都智文</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:44</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_42.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="如果你要离去">
+                                                如果你要离去
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="斯斯与帆">斯斯与帆</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:13</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_43.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Mad At You">
+                                                Mad At You
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Why Don't We">Why Don't We</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:49</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_44.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Deck The Halls">
+                                                Deck The Halls
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Pentatonix">Pentatonix</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:46</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_45.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Choir ">
+                                                Choir
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Guy Sebastian">Guy Sebastian / Samantha Jade</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:27</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_46.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Faith (feat. Mr. Probz) ">
+                                                Faith (feat. Mr. Probz)
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Galantis">Galantis / Dolly Parton / Mr. Probz</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:06</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_47.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Back To You (feat. Kiiara) ">
+                                                Back To You (feat. Kiiara)
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Ekali ">Ekali / Kiiara</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:53</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_48.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="自己愛性カワイズム(feat. 初音ミク) ">
+                                                自己愛性カワイズム(feat. 初音ミク)
+                                                <span class="ns-title-txt">”白猫计划×初音未来“合作曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="初音ミク (初音未来)">Mitchie M (人间调教) / 初音ミク (初音未来)</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:52</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_49.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="野狼Disco-安全带篇 ">
+                                                野狼Disco-安全带篇
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="宝石Gem">宝石Gem</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">01:25</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="newSongs-list ">
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_11.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="静月思《明月照我心》网剧插曲">
+                                                静月思
+                                                <span class="ns-title-txt">《明月照我心》网剧插曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="叶炫清">叶炫清</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">04:10</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_12.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="如何爱 《我的机器人男友》电视剧主题曲">
+                                                如何爱
+                                                <span class="ns-title-txt">《我的机器人男友》电视剧主题曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="金志文">金志文</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:28</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_13.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="戒 《热血少年》电视剧片尾曲">
+                                                戒
+                                                <span class="ns-title-txt">《热血少年》电视剧片尾曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="摩登兄弟">摩登兄弟</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:18</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_14.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="For you ">
+                                                For you
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="乐华NEXT">乐华NEXT</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">02:48</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_15.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="Orphans">
+                                                Orphans
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Coldplay">Coldplay</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:17</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_16.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="My Blood">
+                                                My Blood
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="Westlife">Westlife</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:17</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_17_8.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="不服 ">
+                                                不服
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="汪苏泷 / Justin">汪苏泷 / Justin</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:48</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_17_8.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="纸飞机">
+                                                纸飞机
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="白百何">白百何</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:36</div>
+                                </div>
+                            </li>
+                            <li class="newSongs-item">
+                                <div class="newSongs-item-box">
+                                    <a href="javascript:;" class="ns-img-box">
+                                        <img src="./assets/img/ns_19.jpg" alt="">
+                                        <i class="ns-img-mask"></i>
+                                        <i class="ns-play-btn"></i>
+                                    </a>
+                                    <div class="song-content">
+                                        <h3 class="song-title">
+                                            <a href="javascript:;" class="song-tit-box" title="水墨 《水墨人生》网络剧主题曲">
+                                                水墨
+                                                <span class="ns-title-txt">《水墨人生》网络剧主题曲</span>
+                                            </a>
+                                        </h3>
+                                        <p class="ns-author">
+                                            <a href="javascript:;" class="author-link" title="胡夏">胡夏</a>
+                                        </p>
+                                    </div>
+                                    <div class="ns-time">03:53</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom-point">
+                    <a href="javascript:;" class="bottom-point-item active">
+                        <i class="point "></i>
+                    </a>
+                    <a href="javascript:;" class="bottom-point-item">
+                        <i class="point"></i>
+                    </a>
+                    <a href="javascript:;" class="bottom-point-item">
+                        <i class="point"></i>
+                    </a>
+                    <a href="javascript:;" class="bottom-point-item">
+                        <i class="point"></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="opt-switch">
+                <div class="switch-item s-left">
+                    <a href="javascript:;" class="switch-btn btn-left">
+                        <i class="icon-arrow icon-left sprite"></i>
+                    </a>
+                </div>
+                <div class="switch-item s-right">
+                    <a href="javascript:;" class="switch-btn btn-right">
+                        <i class="icon-arrow icon-right sprite"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--wonderful recommendation start-->
+        <div class="wonderful">
+            <div class="section-container">
+                <div class="new-songs-title">
+                    <h2 class="tit-box icon-txt img-wonderful">
+                        <i class="icon-new-songs">精彩推荐</i>
+                    </h2>
+                </div>
+                <div class="wonderful-roll">
+                    <div class="ns-roll-box">
+                        <ul class="roll-item">
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_41.jpg" alt="" class="roll-img"></a></li>
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_42.jpg" alt="" class="roll-img"></a></li>
+                        </ul>
+
+                        <ul class="roll-item">
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_11.jpg" alt="" class="roll-img"></a></li>
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_12.jpg" alt="" class="roll-img"></a></li>
+                        </ul>
+                        <ul class="roll-item">
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_21.jpg" alt="" class="roll-img"></a></li>
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_22.jpg" alt="" class="roll-img"></a></li>
+                        </ul>
+                        <ul class="roll-item">
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_31.jpg" alt="" class="roll-img"></a></li>
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_32.jpg" alt="" class="roll-img"></a></li>
+                        </ul>
+                        <ul class="roll-item">
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_41.jpg" alt="" class="roll-img"></a></li>
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_42.jpg" alt="" class="roll-img"></a></li>
+                        </ul>
+
+                        <ul class="roll-item">
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_11.jpg" alt="" class="roll-img"></a></li>
+                            <li class="roll-li"><a href="javascript:;" class="roll-links"><img src="./assets/img/wr_12.jpg" alt="" class="roll-img"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom-point">
+                    <a href="javascript:;" class="bottom-point-item active">
+                        <i class="point "></i>
+                    </a>
+                    <a href="javascript:;" class="bottom-point-item">
+                        <i class="point"></i>
+                    </a>
+                    <a href="javascript:;" class="bottom-point-item">
+                        <i class="point"></i>
+                    </a>
+                    <a href="javascript:;" class="bottom-point-item">
+                        <i class="point"></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="opt-switch">
+                <div class="switch-item s-left">
+                    <a href="javascript:;" class="switch-btn btn-left">
+                        <i class="icon-arrow icon-left sprite"></i>
+                    </a>
+                </div>
+                <div class="switch-item s-right">
+                    <a href="javascript:;" class="switch-btn btn-right">
+                        <i class="icon-arrow icon-right sprite"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--new dish first-->
+        <div class="newDish">
+            <div class="section-container">
+                <div class="new-songs-title">
+                    <h2 class="tit-box icon-txt img-newDish">
+                        <i class="icon-new-songs">新碟首发</i>
+                    </h2>
+                </div>
+                <a href="javascript:;" class="newDish-link">
+                    更多
+                    <i class="icon-link-arrow sprite"></i>
+                </a>
+                <div class="new-songs-tab">
+                    <a href="javascript:;" class="ns-tab-item active">内地</a>
+                    <a href="javascript:;" class="ns-tab-item">港台</a>
+                    <a href="javascript:;" class="ns-tab-item">欧美</a>
+                    <a href="javascript:;" class="ns-tab-item">韩国</a>
+                    <a href="javascript:;" class="ns-tab-item">日本</a>
+                    <a href="javascript:;" class="ns-tab-item">其他</a>
+                </div>
+                <div class="newDish-roll">
+                    <ul class="newDish-item">
+                        <li class="dish-list">
+                            <div class="dish-list-box">
+                                <a href="javascript:;" class="dish-img-box">
+                                    <img src="./assets/img/nd_1.jpg" alt="" class="dish-img">
+                                    <i class="ns-img-mask"></i>
+                                    <i class="icon-play play"></i>
+                                </a>
+                                <h4 class="dish-title">
+                                    <a href="javascript:;" class="title-link">假如生活欺骗了你</a>
+                                </h4>
+                                <div class="dish-author">
+                                    <a href="javascript:;" class="author-link" title="新裤子">新裤子</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dish-list">
+                            <div class="dish-list-box">
+                                <a href="javascript:;" class="dish-img-box">
+                                    <img src="./assets/img/nd_2.jpg" alt="" class="dish-img">
+                                    <i class="ns-img-mask"></i>
+                                    <i class="icon-play play"></i>
+                                </a>
+                                <h4 class="dish-title">
+                                    <a href="javascript:;" class="title-link">少年壮志不言愁</a>
+                                </h4>
+                                <div class="dish-author">
+                                    <a href="javascript:;" class="author-link" title="张远">张远</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dish-list">
+                            <div class="dish-list-box">
+                                <a href="javascript:;" class="dish-img-box">
+                                    <img src="./assets/img/nd_3.jpg" alt="" class="dish-img">
+                                    <i class="ns-img-mask"></i>
+                                    <i class="icon-play play"></i>
+                                </a>
+                                <h4 class="dish-title">
+                                    <a href="javascript:;" class="title-link">琵琶行</a>
+                                </h4>
+                                <div class="dish-author">
+                                    <a href="javascript:;" class="author-link" title="夏婉安">夏婉安</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dish-list">
+                            <div class="dish-list-box">
+                                <a href="javascript:;" class="dish-img-box">
+                                    <img src="./assets/img/nd_4.jpg" alt="" class="dish-img">
+                                    <i class="ns-img-mask"></i>
+                                    <i class="icon-play play"></i>
+                                </a>
+                                <h4 class="dish-title">
+                                    <a href="javascript:;" class="title-link">最高地位</a>
+                                </h4>
+                                <div class="dish-author">
+                                    <a href="javascript:;" class="author-link" title="艾辰">艾辰</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dish-list">
+                            <div class="dish-list-box">
+                                <a href="javascript:;" class="dish-img-box">
+                                    <img src="./assets/img/nd_5.jpg" alt="" class="dish-img">
+                                    <i class="ns-img-mask"></i>
+                                    <i class="icon-play play"></i>
+                                </a>
+                                <h4 class="dish-title">
+                                    <a href="javascript:;" class="title-link">每个睡不着的夜晚</a>
+                                </h4>
+                                <div class="dish-author">
+                                    <a href="javascript:;" class="author-link" title="阿悄">阿悄</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dish-list">
+                            <div class="dish-list-box">
+                                <a href="javascript:;" class="dish-img-box">
+                                    <img src="./assets/img/nd_6.jpg" alt="" class="dish-img">
+                                    <i class="ns-img-mask"></i>
+                                    <i class="icon-play play"></i>
+                                </a>
+                                <h4 class="dish-title">
+                                    <a href="javascript:;" class="title-link">多云欲转晴</a>
+                                </h4>
+                                <div class="dish-author">
+                                    <a href="javascript:;" class="author-link" title="周玥">周玥</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dish-list">
+                            <div class="dish-list-box">
+                                <a href="javascript:;" class="dish-img-box">
+                                    <img src="./assets/img/nd_7.jpg" alt="" class="dish-img">
+                                    <i class="ns-img-mask"></i>
+                                    <i class="icon-play play"></i>
+                                </a>
+                                <h4 class="dish-title">
+                                    <a href="javascript:;" class="title-link">天气</a>
+                                </h4>
+                                <div class="dish-author">
+                                    <a href="javascript:;" class="author-link" title="牟敏雪">牟敏雪</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dish-list">
+                            <div class="dish-list-box">
+                                <a href="javascript:;" class="dish-img-box">
+                                    <img src="./assets/img/nd_8.jpg" alt="" class="dish-img">
+                                    <i class="ns-img-mask"></i>
+                                    <i class="icon-play play"></i>
+                                </a>
+                                <h4 class="dish-title">
+                                    <a href="javascript:;" class="title-link">我没有非爱你不可</a>
+                                </h4>
+                                <div class="dish-author">
+                                    <a href="javascript:;" class="author-link" title="王滔">王滔</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dish-list">
+                            <div class="dish-list-box">
+                                <a href="javascript:;" class="dish-img-box">
+                                    <img src="./assets/img/nd_9.jpg" alt="" class="dish-img">
+                                    <i class="ns-img-mask"></i>
+                                    <i class="icon-play play"></i>
+                                </a>
+                                <h4 class="dish-title">
+                                    <a href="javascript:;" class="title-link">晚安</a>
+                                </h4>
+                                <div class="dish-author">
+                                    <a href="javascript:;" class="author-link" title="赵鑫">赵鑫</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dish-list">
+                            <div class="dish-list-box">
+                                <a href="javascript:;" class="dish-img-box">
+                                    <img src="./assets/img/nd_10.jpg" alt="" class="dish-img">
+                                    <i class="ns-img-mask"></i>
+                                    <i class="icon-play play"></i>
+                                </a>
+                                <h4 class="dish-title">
+                                    <a href="javascript:;" class="title-link">小恋</a>
+                                </h4>
+                                <div class="dish-author">
+                                    <a href="javascript:;" class="author-link" title="Babystop_山竹">Babystop_山竹</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--the charts start-->
+        <div class="charts">
+            <div class="section-container">
+                <div class="new-songs-title">
+                    <h2 class="tit-box icon-txt img-charts">
+                        <i class="icon-new-songs">排行榜</i>
+                    </h2>
+                </div>
+                <a href="javascript:;" class="newDish-link chart-link">
+                    更多
+                    <i class="icon-link-arrow sprite"></i>
+                </a>
+                <div class="charts-box">
+                    <ul class="chart-list">
+                        <li class="chart-item">
+                            <div class="chart-box">
+                                <div class="chart-bg"></div>
+                                <i class="icon-play play litter-icon"></i>
+                                <i class="chart-line"></i>
+                                <h3 class="chart-head">
+                                    <a href="javascript:;" class="chart-title">流行指数</a>
+                                </h3>
+                                <ul class="chart-songList">
+                                    <li class="chart-song">
+                                        <div class="chart-num">1</div>
+                                        <div class="chart-name">那什么</div>
+                                        <div class="chart-author">永彬Ryan.B/李晧轩</div>
+                                    </li>
+                                    <li class="chart-song">
+                                        <div class="chart-num">2</div>
+                                        <div class="chart-name">这就是爱情</div>
+                                        <div class="chart-author">李代沫</div>
+                                    </li>
+                                    <li class="chart-song" >
+                                        <div class="chart-num">3</div>
+                                        <div class="chart-name">Lose You To Love Me</div>
+                                        <div class="chart-author">Selena Gomez</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="chart-item">
+                            <div class="chart-box">
+                                <div class="chart-bg"></div>
+                                <i class="icon-play play litter-icon"></i>
+                                <i class="chart-line"></i>
+                                <h3 class="chart-head">
+                                    <a href="javascript:;" class="chart-title">热歌</a>
+                                </h3>
+                                <ul class="chart-songList">
+                                    <li class="chart-song">
+                                        <div class="chart-num">1</div>
+                                        <div class="chart-name">野狼Disco（feat.陈伟霆）</div>
+                                        <div class="chart-author">宝石Gem/陈伟霆</div>
+                                    </li>
+                                    <li class="chart-song">
+                                        <div class="chart-num">2</div>
+                                        <div class="chart-name">嚣张</div>
+                                        <div class="chart-author">en</div>
+                                    </li>
+                                    <li class="chart-song" >
+                                        <div class="chart-num">3</div>
+                                        <div class="chart-name">说好不哭（with 五月天阿信）</div>
+                                        <div class="chart-author">周杰伦</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="chart-item">
+                            <div class="chart-box">
+                                <div class="chart-bg"></div>
+                                <i class="icon-play play litter-icon"></i>
+                                <i class="chart-line"></i>
+                                <h3 class="chart-head">
+                                    <a href="javascript:;" class="chart-title">新歌</a>
+                                </h3>
+                                <ul class="chart-songList">
+                                    <li class="chart-song">
+                                        <div class="chart-num">1</div>
+                                        <div class="chart-name">野狼Disco（feat.陈伟霆）</div>
+                                        <div class="chart-author">宝石Gem/陈伟霆</div>
+                                    </li>
+                                    <li class="chart-song">
+                                        <div class="chart-num">2</div>
+                                        <div class="chart-name">悬溺</div>
+                                        <div class="chart-author">葛东琪</div>
+                                    </li>
+                                    <li class="chart-song" >
+                                        <div class="chart-num">3</div>
+                                        <div class="chart-name">涅槃 (Phoenix)</div>
+                                        <div class="chart-author">英雄联盟</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="chart-item">
+                            <div class="chart-box">
+                                <div class="chart-bg"></div>
+                                <i class="icon-play play litter-icon"></i>
+                                <i class="chart-line"></i>
+                                <h3 class="chart-head">
+                                    <a href="javascript:;" class="chart-title">欧美</a>
+                                </h3>
+                                <ul class="chart-songList">
+                                    <li class="chart-song">
+                                        <div class="chart-num">1</div>
+                                        <div class="chart-name">涅槃 (Phoenix)</div>
+                                        <div class="chart-author">英雄联盟</div>
+                                    </li>
+                                    <li class="chart-song">
+                                        <div class="chart-num">2</div>
+                                        <div class="chart-name">10,000 Hours</div>
+                                        <div class="chart-author">Dan + Shay/Justin Bieber</div>
+                                    </li>
+                                    <li class="chart-song" >
+                                        <div class="chart-num">3</div>
+                                        <div class="chart-name">Lose You To Love Me</div>
+                                        <div class="chart-author">Selena Gomez</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="chart-item">
+                            <div class="chart-box">
+                                <div class="chart-bg"></div>
+                                <i class="icon-play play litter-icon"></i>
+                                <i class="chart-line"></i>
+                                <h3 class="chart-head">
+                                    <a href="javascript:;" class="chart-title">韩国</a>
+                                </h3>
+                                <ul class="chart-songList">
+                                    <li class="chart-song">
+                                        <div class="chart-num">1</div>
+                                        <div class="chart-name">KILL THIS LOVE (JP Ver.)</div>
+                                        <div class="chart-author">BLACKPINK</div>
+                                    </li>
+                                    <li class="chart-song">
+                                        <div class="chart-num">2</div>
+                                        <div class="chart-name">SOSO</div>
+                                        <div class="chart-author">WINNER (위너)</div>
+                                    </li>
+                                    <li class="chart-song" >
+                                        <div class="chart-num">3</div>
+                                        <div class="chart-name">싫다고 말해 (Put It Straight) (Nightmare Version)</div>
+                                        <div class="chart-author">(여자)아이들 ((女)孩子们)</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </main>
+<!--footer-->
+<footer class="footer-container">
+    <div class="section-container">
+        <div class="footer-info">
+            <div class="footer-download">
+                <h3 class="footer-tit">下载QQ音乐客户端</h3>
+                <ul class="download-list">
+                    <li class="download-item">
+                        <a href="javascript:;" class="download-link">
+                            <i class="icon-pc footer"></i>
+                            PC版
+                        </a>
+                    </li>
+                    <li class="download-item">
+                        <a href="javascript:;" class="download-link">
+                            <i class="icon-mac footer"></i>
+                            Mac版
+                        </a>
+                    </li>
+                    <li class="download-item">
+                        <a href="javascript:;" class="download-link">
+                            <i class="icon-android footer"></i>
+                            Android版
+                        </a>
+                    </li>
+                    <li class="download-item">
+                        <a href="javascript:;" class="download-link">
+                            <i class="icon-iphone footer"></i>
+                            iPhone版
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-product">
+                <h3 class="footer-tit">特色产品</h3>
+                <ul class="product-list">
+                    <li class="product-item product-img">
+                        <a href="javascript:;" class="product-link">
+                            <i class="icon-kg footer"></i>
+                            全民K歌
+                        </a>
+                    </li>
+                    <li class="product-item product-img">
+                    <a href="javascript:;" class="product-link">
+                        <i class="icon-super footer"></i>
+                        Super Sound
+                    </a>
+                </li>
+                    <li class="product-item product-img">
+                        <a href="javascript:;" class="product-link">
+                            <i class="icon-qplay footer"></i>
+                            QPlay
+                        </a>
+                    </li>
+                    <li class="product-item">
+                        <a href="javascript:;" class="product-link">车载互动</a>
+                    </li>
+                    <li class="product-item">
+                        <a href="javascript:;" class="product-link">QQ演出</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-group">
+                <h3 class="footer-tit">TME集团官网</h3>
+                <ul class="group-list">
+                    <li class="group-item">
+                        <a href="javascript:;" class="group-link">腾讯音乐</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-link">
+                <h3 class="footer-tit">合作链接</h3>
+                <ul class="footer_link_list">
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >CJ ENM</a></li>
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >腾讯视频</a></li>
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >手机QQ空间</a></li>
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >最新版QQ</a></li>
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >腾讯社交广告</a></li>
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >电脑管家</a></li>
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >QQ浏览器</a></li>
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >腾讯微云</a></li>
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >腾讯云</a></li>
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >企鹅FM</a></li>
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >智能电视网</a></li>
+                    <li class="footer_link_item"><a href="javascript:;" target="_blank" class="js_other_link" >当贝市场</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-platform">
+                <h3 class="footer-tit">开放平台</h3>
+                <ul class="platform-list">
+                    <li class="platform-item">
+                        <a href="javascript:;" class="platform-link">腾讯音乐人</a>
+                    </li>
+                    <li class="platform-item">
+                        <a href="javascript:;" class="platform-link">音乐号认证</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+
+            <p class="copyright-p">
+                <a href="javascript:;" class="copyright-p-link"  target="_blank" title="关于腾讯">关于腾讯</a> |
+                <a href="javascript:;" class="copyright-p-link"  target="_blank" title="About Tencent">About Tencent</a> |
+                <a href="javascript:;" class="copyright-p-link"  target="_blank" title="服务条款">服务条款</a> |
+                <a href="javascript:;" class="copyright-p-link"  target="_blank" title="用户服务协议">用户服务协议</a> |
+                <a href="javascript:;" class="copyright-p-link"  target="_blank" title="隐私政策">隐私政策</a> |
+                <a href="javascript:;" class="copyright-p-link"  target="_blank" title="权利声明">权利声明</a> |
+                <a href="javascript:;" class="copyright-p-link"  target="_blank" title="广告服务">广告服务</a> |
+                <a href="javascript:;" class="copyright-p-link"  target="_blank" title="腾讯招聘">腾讯招聘</a> |
+                <a href="javascript:;" class="copyright-p-link"  target="_blank" title="客服中心">客服中心</a> |
+                <a href="javascript:;" class="copyright-p-link"  target="_blank" title="网站导航">网站导航</a>
+            </p>
+
+            <p class="copyright-p">Copyright &copy; 1998 - <span id="copyYear">2019</span> Tencent. <a target="_blank" href="javascript:;"  title="All Rights Reserved." class="copyright-p-link">All Rights Reserved.</a></p>
+            <p class="copyright-p">腾讯公司 <a class="copyright-p-link" target="_blank" href="javascript:;"  title="版权所有">版权所有</a> <a target="_blank" href="javascript:;" class="copyright-p-link"  title="腾讯网络文化经营许可证">腾讯网络文化经营许可证</a></p>
+        </div>
+    </div>
+</footer>
+<!--section-btn-->
+<a href="javascript:;" class="backTop bottom-btn">
+    <i class="icon-back-top"></i>
+</a>
+<a href="javascript:;" class="feedback bottom-btn">反馈</a>
+<a href="javascript:; " class="openPlay bottom-btn"></a>
+</body>
+</html>
